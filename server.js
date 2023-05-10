@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get("/", (req, res) => {
-	res.send('testing brodie');
+	res.send('testing mantap');
 });
 
 const PORT = process.env.PORT || 8080;
